@@ -1,0 +1,59 @@
+'''Author: Vanessa Brewer
+Student ID: <W0487885>
+Course: PROG1700
+Date: 09/27/23
+Repository: <Visual Studio Code>
+Programming Language: Python 
+License: Creative Commons
+Version: 1.0'''
+
+
+import datetime
+ 
+
+# while True:
+
+# Get Imput from the user
+age_input = input("Please enter your age: ")
+
+# Vaildate the input from user.
+# If input is a digit (True), then calculate
+
+if age_input.isdigit():
+
+    # Input is true, Perform Calculations 
+    # Ensure age is an integer
+
+    age = int(age_input)
+
+    # Get current year 
+
+    current_year = datetime.datetime.now().year
+
+    # Calculate the birth year
+
+    birth_year = current_year - age
+ 
+    # Output Year Of Birth
+
+    print("You were born in the year", birth_year, ".")
+    
+    # Using python format 
+    #print(f"You were born in the year {birth_year}
+
+    # Break the program after the year of birth is given 
+    
+
+
+# Convert the input to an integer
+age = int(age)
+ 
+# Calculate the birth year
+birth_year = current_year - age
+ 
+# Check if the user is under 4 years old
+if age < 4:
+    print("You are very young to be programming with Python.")
+else:
+    print(f"You were born in the year {birth_year}.")
+    print("You were born in the year", birth_year,".")
